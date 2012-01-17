@@ -1,6 +1,6 @@
 The way Magento outputs empty attributes in the product view list (specification table) is flawed; this extension seeks to rectify this by hiding empty items, rather than returning either "No" or "N/A".
 
-Installation is simple - copy the files to your Magento webroot.
+Installation is simple - copy the app directory to your Magento webroot.
 
 Once installed, you will have access to the following new functions, available programatically or via your layout xml files:
 
@@ -22,5 +22,5 @@ may become
 	
 	<block type="catalog/product_view_attributes" name="product.info.attributes" as="product_attributes_data"  template="catalog/product/view/attributes.phtml">
 		<action method='setShowNull'><show>true</show></action>
-		<action method='setNullValue'><show><![CDATA[<em>Not set</em>]]></show></action>
+		<action method='setNullValue'><value><![CDATA[<em>Not set</em>]]></value></action>
 	</block>
