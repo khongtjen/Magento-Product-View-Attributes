@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<modules>
+		<TheDistance_ProductViewAttributes>
+			<version>1.0.0</version>
+		</TheDistance_ProductViewAttributes>
+	</modules>
+	<global>
+		<blocks>
+			<catalog>
+				<rewrite>
+					<product_view_attributes>TheDistance_ProductViewAttributes_Block_Product_View_Attributes</product_view_attributes>
+				</rewrite>
+			</catalog>
+		</blocks>
+		<models>
+			<eav>
+				<rewrite>
+					<entity_attribute_frontend_default>TheDistance_ProductViewAttributes_Model_Entity_Attribute_Frontend_Default</entity_attribute_frontend_default>
+				</rewrite>
+			</eav>
+		</models>
+		<resources />
+	</global>
+	<frontend>
+		<routers />
+		<events />
+		<translate />
+		<layout />
+	</frontend>
+	<default>
+		<config_vars />
+	</default>
+</config>

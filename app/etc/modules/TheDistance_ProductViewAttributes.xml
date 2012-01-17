@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<TheDistance_ProductViewAttributes>
+			<active>true</active>
+			<codePool>community</codePool>
+		</TheDistance_ProductViewAttributes>
+	</modules>
+</config>
