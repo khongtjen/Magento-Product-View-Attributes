@@ -1,6 +1,6 @@
 The way Magento outputs empty attributes in the product view list (specification table) is flawed; this extension seeks to rectify this by hiding empty items, rather than returning either "No" or "N/A".
 
-Installation is simple - copy the files to your Magento webroot.
+Installation is simple - copy the app directory to your Magento webroot.
 
 Once installed, you will have access to the following new functions, available programatically or via your layout xml files:
 
